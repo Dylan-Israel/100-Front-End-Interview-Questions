@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <script>
+        const user = JSON.stringify({
+            firstName: 'Dylan',
+            lastName: 'Israel'
+        });
+
+        localStorage.setItem('user', user);
+
+        console.log(JSON.parse(localStorage.getItem('user')));
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

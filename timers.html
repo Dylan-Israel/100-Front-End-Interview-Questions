@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <button onclick="startTimer()">Try it</button>
+    <button onclick="clearTimer()">Clear</button>
+
+    <script>
+        let timer;
+
+        function startTimer() {
+            timer = setInterval(alertFunc, 5000, 'Dylan', 'Israel');
+        }
+
+        function clearTimer() {
+            clearTimeout(timer);
+        }
+
+        function alertFunc(firstName, lastName) {
+            alert(`Hello ${firstName} ${lastName}`);
+        }
+    </script>
+
+</body>
+
+</html>

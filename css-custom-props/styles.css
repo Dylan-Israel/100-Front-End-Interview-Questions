@@ -1,0 +1,18 @@
+:root {
+    --headingColor: orange;
+    --borderStandard: 5px solid black;
+}
+
+h1 {
+    color: var(--headingColor);
+    border: var(--borderStandard);
+}
+
+h2 {
+    color: var(--headingColor);
+}
+
+h3 {
+    border: var(--borderStandard);
+    color: var(--headingColor);
+}
